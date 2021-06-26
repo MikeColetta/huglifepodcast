@@ -1,3 +1,13 @@
 .episodeContainer {
     width: 80%;
 }
+
+.episodeCard {
+    padding: 2vw;
+    background-color: #C2BBF0;
+}
+
+.recentHeading {
+    text-align: center;
+    color: #FAF3DD;
+}
