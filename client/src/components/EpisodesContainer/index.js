@@ -13,7 +13,7 @@ function EpisodesContainer() {
     const [episodesPerPage] = useState(5);
 
 
-    
+    //Get episodes from RSS feed
     async function getEpisodes() {
         setLoading(true);
         const feed = await parser.parseURL('https://huglifepodcast.libsyn.com/rss');
@@ -21,7 +21,7 @@ function EpisodesContainer() {
         setLoading(false);
     }
 
-    //Get current posts
+    //Get current episodes
     const indexOfLastEpisode = currentPage * episodesPerPage;
     const indexOfFirstEpisode = indexOfLastEpisode - episodesPerPage;
     const currentEpisodes = episodes.slice(indexOfFirstEpisode, indexOfLastEpisode)
@@ -29,7 +29,8 @@ function EpisodesContainer() {
     useEffect(() => {
         getEpisodes()
     }, [])
-//Change page
+    
+    //Change page
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
@@ -39,7 +40,7 @@ function EpisodesContainer() {
                     loading={loading}
                     currentEpisodes={currentEpisodes}
                     />
-                    <EpisodePagination 
+                    <EpisodePagination className="paginationStyle"
                         episodesPerPage={episodesPerPage}
                         totalEpisodes={episodes.length}
                         paginate={paginate}
