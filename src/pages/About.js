@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Container, Col, Image, Card } from 'react-bootstrap';
+import { Row, Container, Image } from 'react-bootstrap';
 
 
 class About extends React.Component {
