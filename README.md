@@ -1,10 +1,10 @@
 # Codex Podcast
 
-![GitHub](https://img.shields.io/github/license/MikeColetta/codexpodcast)
+![GitHub](https://img.shields.io/github/license/MikeColetta/huglifepodcast)
 
 ## Project Description
 
-I created a website for my podcast Codex: History of Video Games. The site is built with ReactJS, React Router, and React-Bootstrap.
+I created a website for my podcast HugLife. The site is built with ReactJS, React Router, and React-Bootstrap.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -14,7 +14,7 @@ I created a website for my podcast Codex: History of Video Games. The site is bu
 5. [Credits](#credits)
 
 ## Installation
-[Deployed Link](https://www.codexpodcast.net)
+[Deployed Link](https://www.huglifepodcast.com)
 
 ## Usage
 
