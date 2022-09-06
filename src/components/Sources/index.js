@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Card, Row, Image } from 'react-bootstrap';
+import { Container, Card, Row } from 'react-bootstrap';
 import SidebarAd from "../SidebarAd";
-
 
 function PromoColumn() {
     return (
