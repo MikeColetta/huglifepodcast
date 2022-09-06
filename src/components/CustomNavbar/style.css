@@ -1,0 +1,24 @@
+.navbarLogo {
+    margin-left: 1vw;
+}
+
+.navbarItem {
+    margin-left: 1vw;
+    text-decoration: none;
+    font-size: large;
+    color: #001133;
+}
+
+.customNavbar {
+    padding-right: 1rem;
+}
+
+.dropdown {
+    margin-left: auto;
+    justify-content: end;
+    font-size: large;
+}
+
+#nav-dropdown{
+    color: white;
+}

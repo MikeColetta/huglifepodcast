@@ -1,0 +1,17 @@
+/* .episodeContainer {
+    width: 80%;
+} */
+
+.episodeCard {
+    padding: 2vw;
+    background-color: teal;
+}
+
+.recentHeading {
+    text-align: center;
+    color: #FAF3DD;
+}
+
+.pagination {
+    margin: auto;
+}

@@ -1,0 +1,11 @@
+.singleEpisode {
+    background-color:  #285943;
+    color: #FAF3DD;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.customPlayer {
+    width: 100%;
+    max-width: 600px;
+}

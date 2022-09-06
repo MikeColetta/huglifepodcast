@@ -1,10 +1,10 @@
-# React-Google-Books-Search
+# Codex Podcast
 
-![GitHub](https://img.shields.io/github/license/MikeColetta/React-Google-Books-Search)
+![GitHub](https://img.shields.io/github/license/MikeColetta/codexpodcast)
 
 ## Project Description
 
-I created a Google Books Search app that uses React and the Google Books API. Users can search for books and save them to the database.
+I created a website for my podcast Codex: History of Video Games. The site is built with ReactJS, React Router, and React-Bootstrap.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -14,18 +14,15 @@ I created a Google Books Search app that uses React and the Google Books API. Us
 5. [Credits](#credits)
 
 ## Installation
-[Deployed Link](https://coletta-react-google-books.herokuapp.com/)
+[Deployed Link](https://www.codexpodcast.net)
 
 ## Usage
-
-![Screenshot 1](./client/src/assets/images/Screenshot1.JPG)
-![Screenshot 2](./client/src/assets/images/Screenshot2.JPG)
 
 ## License
     
 MIT License
     
-Copyright (c) 2021 Mike Coletta
+Copyright (c) 2022 Mike Coletta
           
 ## Questions?
     

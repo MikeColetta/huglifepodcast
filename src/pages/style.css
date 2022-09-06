@@ -1,0 +1,53 @@
+.aboutImage{
+    display: block;
+    margin: auto;
+    max-height: 100%;
+}
+
+.aboutCol{
+    color: #FAF3DD;
+}
+
+.aboutCard {
+    background-color: #001133;
+}
+
+.sourceAnchor {
+    text-decoration: none;
+    color: #FAF3DD;
+}
+
+.sourceAnchor:hover {
+    color: #FAF3DD;
+}
+
+.bannerContainer {
+    text-align: center;
+}
+
+.bannerImage {
+    width: 75%;
+}
+
+.sourceCard {
+    text-align: center;
+}
+
+.iconCard {
+    justify-content: center;
+    text-align: center;
+    background-color: #285943;
+    max-width: 100px;
+    max-height: 125px;
+    padding: 0px;
+}
+
+.aboutAnchor {
+    color: #FAF3DD;
+    text-decoration: none;
+}
+
+.aboutAnchor:hover{
+    color: #FAF3DD;
+    text-decoration: underline;
+}
