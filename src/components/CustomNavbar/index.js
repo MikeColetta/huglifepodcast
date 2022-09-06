@@ -1,31 +1,38 @@
 import React from "react";
-import { Navbar, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import "./style.css";
 import Logo from '../../assets/huglifeLogoSM.jpeg';
 
 function CustomNavbar() {
     return (
-        <Navbar className="customNavbar" expand="lg" variant="dark">
-            <Link to="/">
-                <img
-                    alt="Codex Logo"
-                    src={Logo}
-                    width="60"
-                    height="60"
-                    className="d-inline-block align-top navbarLogo"
-                />{' '}
-            </Link>
-            <NavDropdown align="end" title="Menu" id="nav-dropdown" className='dropdown'>
-                <Link to="/About" className="navbarItem">
-                    About
+
+        <Navbar variant="dark" className="customNavbar">
+            <Container>
+                <Link to="/">
+                    <img
+                        alt="Codex Logo"
+                        src={Logo}
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top navbarLogo"
+                    />{' '}
                 </Link>
-                <br></br>
-                <Link to="/Contact" className="navbarItem">
-                    Contact
+                <Link to="/" className="huglifeBrand">
+                    HugLife Podcast
                 </Link>
-            </NavDropdown>
+                <Nav align="end">
+                    <Link to="/About" className="navbarItem">
+                        About
+                    </Link>
+                    <br></br>
+                    <Link to="/Contact" className="navbarItem">
+                        Contact
+                    </Link>.
+                </Nav>
+            </Container>
         </Navbar>
+
     )
 }
 
