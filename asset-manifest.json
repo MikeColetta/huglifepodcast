@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/huglifepodcast/static/css/main.8079d0b5.chunk.css",
+    "main.js": "/huglifepodcast/static/js/main.d4409cc2.chunk.js",
+    "main.js.map": "/huglifepodcast/static/js/main.d4409cc2.chunk.js.map",
+    "runtime-main.js": "/huglifepodcast/static/js/runtime-main.f6068747.js",
+    "runtime-main.js.map": "/huglifepodcast/static/js/runtime-main.f6068747.js.map",
+    "static/css/2.818011ed.chunk.css": "/huglifepodcast/static/css/2.818011ed.chunk.css",
+    "static/js/2.da9a5a84.chunk.js": "/huglifepodcast/static/js/2.da9a5a84.chunk.js",
+    "static/js/2.da9a5a84.chunk.js.map": "/huglifepodcast/static/js/2.da9a5a84.chunk.js.map",
+    "static/js/3.1e0db792.chunk.js": "/huglifepodcast/static/js/3.1e0db792.chunk.js",
+    "static/js/3.1e0db792.chunk.js.map": "/huglifepodcast/static/js/3.1e0db792.chunk.js.map",
+    "index.html": "/huglifepodcast/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/huglifepodcast/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.8079d0b5.chunk.css.map": "/huglifepodcast/static/css/main.8079d0b5.chunk.css.map",
+    "static/js/2.da9a5a84.chunk.js.LICENSE.txt": "/huglifepodcast/static/js/2.da9a5a84.chunk.js.LICENSE.txt",
+    "static/media/huglifeLogoSM.f106df2d.jpeg": "/huglifepodcast/static/media/huglifeLogoSM.f106df2d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6068747.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.da9a5a84.chunk.js",
+    "static/css/main.8079d0b5.chunk.css",
+    "static/js/main.d4409cc2.chunk.js"
+  ]
+}
