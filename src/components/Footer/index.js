@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div>
             <Container className="customFooter">
-                © Copyright 2022 - Mike Coletta and Tyler Ostby
+                © Copyright 2022 - Mike Coletta and Monica Nevi
             </Container>
         </div>
     )
