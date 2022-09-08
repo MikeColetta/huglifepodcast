@@ -1,7 +1,7 @@
 {
   "name": "codexpodcast",
   "version": "0.1.0",
-  "homepage": "https://www.codexpodcast.net",
+  "homepage": "https://MikeColetta.github.io/huglifepodcast",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
