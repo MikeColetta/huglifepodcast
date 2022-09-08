@@ -5,20 +5,16 @@
 }
 
 .aboutCol{
-    color: #FAF3DD;
-}
-
-.aboutCard {
-    background-color: #001133;
+    color: white;
 }
 
 .sourceAnchor {
     text-decoration: none;
-    color: #FAF3DD;
+    color: white;
 }
 
 .sourceAnchor:hover {
-    color: #FAF3DD;
+    color: white;
 }
 
 .bannerContainer {
@@ -43,11 +39,11 @@
 }
 
 .aboutAnchor {
-    color: #FAF3DD;
+    color: white;
     text-decoration: none;
 }
 
 .aboutAnchor:hover{
-    color: #FAF3DD;
+    color: white;
     text-decoration: underline;
 }
