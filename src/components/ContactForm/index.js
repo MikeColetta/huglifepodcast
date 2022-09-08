@@ -6,11 +6,11 @@ import './style.css';
 function ContactForm() {
     const [showModal, setShowModal] = useState(false)
     const toggleShow = () => setShowModal(!showModal);
-    
+
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_97vqa14', 'codex_podcast', e.target, 'user_15em2QL9mW3Hn6RUePoFM')
+        emailjs.sendForm('service_ilnu6lm', 'huglife_template', e.target, 'MJP4N_QRxPEQTguRj')
             .then((result) => {
                 console.log(result.text);
                 setShowModal(true);
@@ -29,10 +29,10 @@ function ContactForm() {
                             <input type="text" className="form-control" placeholder="Name" name="name" required />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email" required/>
+                            <input type="email" className="form-control" placeholder="Email Address" name="email" required />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject" required/>
+                            <input type="text" className="form-control" placeholder="Subject" name="subject" required />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
                             <textarea className="form-control" cols="30" rows="8" placeholder="Your message" name="message" required></textarea>
@@ -48,9 +48,9 @@ function ContactForm() {
                 <ToastContainer position='top-center'>
                     <Toast show={showModal} onClose={toggleShow}>
                         <Toast.Header>
-                            <strong className="me-auto">Codex Podast</strong>
+                            <strong className="me-auto">Huglife Podcast</strong>
                         </Toast.Header>
-                        <Toast.Body>Hotcakes and Gangbusters, your message was sent!</Toast.Body>
+                        <Toast.Body>Your message was sent. You're great!</Toast.Body>
                     </Toast>
                 </ToastContainer>
             )}
