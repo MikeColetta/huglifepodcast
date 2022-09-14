@@ -1,6 +1,6 @@
 import React from 'react';
 import EpisodesContainer from '../components/EpisodesContainer';
-import Sources from '../components/Sources';
+import PromoColumn from '../components/PromoColumn';
 import './style.css';
 import { Row, Container, Col, Image } from 'react-bootstrap';
 
@@ -19,7 +19,7 @@ class Homepage extends React.Component {
                             <EpisodesContainer />
                         </Col>
                         <Col md={4}>
-                            <Sources />
+                            <PromoColumn />
                         </Col>
                     </Row>
                 </Container>
