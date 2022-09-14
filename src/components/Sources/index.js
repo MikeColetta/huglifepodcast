@@ -12,10 +12,9 @@ function PromoColumn() {
                     <Row>
                         <div className="card-body sourceCard">
                             <Row>
-
-                                <h5 className="card-title">Amazon</h5>
+                                <a className="sourceAnchor" href="https://amzn.to/3xlxYp8" target="_blank" rel="noreferrer" >
+                                    <h5 className="card-title">Amazon</h5></a>
                             </Row>
-                            <SidebarAd />
                         </div>
                     </Row>
                 </div>
